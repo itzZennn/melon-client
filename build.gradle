@@ -1,0 +1,39 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group = 'net.melon'
+version = '1.0.0'
+sourceCompatibility = '1.8'
+
+repositories {
+    mavenCentral()
+    maven { url 'https://libraries.minecraft.net' }
+}
+
+dependencies {
+    // Minecraft
+    implementation 'com.mojang:minecraft:1.8.9'
+    
+    // Logging
+    implementation 'org.slf4j:slf4j-api:1.7.32'
+    implementation 'org.slf4j:slf4j-simple:1.7.32'
+    
+    // JSON
+    implementation 'com.google.code.gson:gson:2.8.9'
+    
+    // GUI
+    implementation 'org.lwjgl:lwjgl:2.9.3'
+    
+    // Testing
+    testImplementation 'junit:junit:4.13.2'
+}
+
+application {
+    mainClassName = 'net.melon.MelonClient'
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
