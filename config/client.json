@@ -1,0 +1,67 @@
+{
+  "client": {
+    "name": "Melon Client",
+    "version": "1.0.0",
+    "targetVersion": "1.8.9"
+  },
+  "performance": {
+    "fpsBoost": true,
+    "chunkLoading": "multithreaded",
+    "memoryOptimization": true,
+    "antiStutter": true,
+    "fpsCap": 300
+  },
+  "modules": {
+    "keystrokes": {
+      "enabled": true,
+      "position": "bottomLeft",
+      "scale": 1.0
+    },
+    "cps": {
+      "enabled": true,
+      "position": "bottomRight",
+      "scale": 1.0
+    },
+    "fps": {
+      "enabled": true,
+      "position": "topLeft",
+      "scale": 1.0
+    },
+    "ping": {
+      "enabled": true,
+      "position": "topRight",
+      "scale": 1.0
+    },
+    "minimap": {
+      "enabled": false,
+      "position": "topRight",
+      "scale": 0.8
+    },
+    "armorStatus": {
+      "enabled": true,
+      "position": "bottomCenter",
+      "scale": 1.0
+    },
+    "potionStatus": {
+      "enabled": true,
+      "position": "bottomCenter",
+      "scale": 1.0
+    },
+    "direction": {
+      "enabled": false,
+      "position": "topCenter",
+      "scale": 1.0
+    }
+  },
+  "theme": "dark",
+  "keybinds": {
+    "toggleMenu": 54,
+    "toggleFPS": 24,
+    "toggleCPS": 23,
+    "togglePing": 37,
+    "toggleKeystrokes": 25,
+    "toggleMinimap": 50,
+    "toggleArmor": 30,
+    "togglePotion": 18
+  }
+}
