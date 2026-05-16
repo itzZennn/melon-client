@@ -1,0 +1,30 @@
+# Gradle
+.gradle/
+build/
+*.gradle.lock
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Minecraft
+.minecraft/
+run/
+logs/
+
+# Java
+*.class
+*.jar
+*.zip
+target/
+
+# Config
+config/local.json
+*.log
